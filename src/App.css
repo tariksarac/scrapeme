@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.App .title {
+  padding: 50px 0 20px 0;
+  font-size: 40px;
+}
+
+.App .input-container {
+  width: 700px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.App .input-container input {
+ background: transparent;
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 5px 10px ;
+  box-sizing: border-box;
+
+}
+
+.App .input-container button {
+  background-color: rgb(5, 25, 55);
+  color: #ffffff;
+  height: 50px;
+  text-align: center;
+  width: 180px;
+  border-radius: 50px;
+  -webkit-box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
+  box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
+  letter-spacing: 0.094em;
+  border: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 30px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App .output-container {
+  width: 80%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
+  box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
+  border: 1px solid #aaaaaa;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
